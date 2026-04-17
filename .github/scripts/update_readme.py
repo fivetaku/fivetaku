@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 USER = "fivetaku"
-TOP_N = 6
+TOP_N = 8
 ROOT = Path(__file__).resolve().parents[2]
 TEMPLATE = ROOT / ".github" / "README.template.md"
 OUTPUT = ROOT / "README.md"
@@ -60,12 +60,12 @@ def render_highlights(repos: list[dict]) -> str:
             )
             rows.append("    <td width=\"50%\" valign=\"top\">")
             rows.append(
-                f"      <h3><a href=\"https://github.com/{USER}/{name}\">{name}</a> "
-                f"<a href=\"https://github.com/{USER}/{name}/stargazers\">"
-                f"<img src=\"{badge}\" alt=\"stars\" align=\"right\" /></a></h3>"
+                f"      <a href=\"https://github.com/{USER}/{name}\"><b>{name}</b></a>"
+                f"&nbsp;<a href=\"https://github.com/{USER}/{name}/stargazers\">"
+                f"<img src=\"{badge}\" alt=\"stars\" /></a><br/>"
             )
             if desc:
-                rows.append(f"      <p>{desc}</p>")
+                rows.append(f"      <sub>{desc}</sub>")
             rows.append("    </td>")
         if len(pair) == 1:
             rows.append("    <td width=\"50%\"></td>")

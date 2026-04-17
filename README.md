@@ -14,32 +14,42 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/fivetaku/insane-search">insane-search</a> <a href="https://github.com/fivetaku/insane-search/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/insane-search?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" align="right" /></a></h3>
-      <p>Auto-bypass for blocked websites in Claude Code — Phase 0→3 adaptive scheduler, no API keys</p>
+      <a href="https://github.com/fivetaku/insane-search"><b>insane-search</b></a>&nbsp;<a href="https://github.com/fivetaku/insane-search/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/insane-search?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>Auto-bypass for blocked websites in Claude Code — Phase 0→3 adaptive scheduler, no API keys</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/fivetaku/cc101">cc101</a> <a href="https://github.com/fivetaku/cc101/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/cc101?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" align="right" /></a></h3>
-      <p>Claude Code 한국어 입문 가이드 &#124; Korean Beginner Guide for Claude Code</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/fivetaku/gptaku_plugins">gptaku_plugins</a> <a href="https://github.com/fivetaku/gptaku_plugins/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/gptaku_plugins?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" align="right" /></a></h3>
-      <p>A Claude Code plugin marketplace for people who want to become AI Native</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/fivetaku/vibe-sunsang">vibe-sunsang</a> <a href="https://github.com/fivetaku/vibe-sunsang/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/vibe-sunsang?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" align="right" /></a></h3>
-      <p>AI mentor agent for vibecoders on Claude Code — conversation analysis, mentoring, growth reports</p>
+      <a href="https://github.com/fivetaku/cc101"><b>cc101</b></a>&nbsp;<a href="https://github.com/fivetaku/cc101/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/cc101?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>Claude Code 한국어 입문 가이드 &#124; Korean Beginner Guide for Claude Code</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/fivetaku/content-pipeline">content-pipeline</a> <a href="https://github.com/fivetaku/content-pipeline/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/content-pipeline?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" align="right" /></a></h3>
-      <p>주제 하나로 리서치→카드뉴스→영상까지 자동 생성하는 Claude Code 스킬</p>
+      <a href="https://github.com/fivetaku/gptaku_plugins"><b>gptaku_plugins</b></a>&nbsp;<a href="https://github.com/fivetaku/gptaku_plugins/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/gptaku_plugins?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>A Claude Code plugin marketplace for people who want to become AI Native</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/fivetaku/insane-design">insane-design</a> <a href="https://github.com/fivetaku/insane-design/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/insane-design?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" align="right" /></a></h3>
-      <p>URL one-shot design system extractor — fetches real CSS, analyzes tokens, generates design.md + interactive HTML report</p>
+      <a href="https://github.com/fivetaku/vibe-sunsang"><b>vibe-sunsang</b></a>&nbsp;<a href="https://github.com/fivetaku/vibe-sunsang/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/vibe-sunsang?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>AI mentor agent for vibecoders on Claude Code — conversation analysis, mentoring, growth reports</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/fivetaku/content-pipeline"><b>content-pipeline</b></a>&nbsp;<a href="https://github.com/fivetaku/content-pipeline/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/content-pipeline?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>주제 하나로 리서치→카드뉴스→영상까지 자동 생성하는 Claude Code 스킬</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/fivetaku/insane-design"><b>insane-design</b></a>&nbsp;<a href="https://github.com/fivetaku/insane-design/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/insane-design?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>URL one-shot design system extractor — fetches real CSS, analyzes tokens, generates design.md + interactive HTML report</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/fivetaku/claude-office-skills"><b>claude-office-skills</b></a>&nbsp;<a href="https://github.com/fivetaku/claude-office-skills/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/claude-office-skills?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>Claude in Excel & Claude in PowerPoint skills, restored as SKILL.md for Claude Code — DCF, LBO, 3-statement, comps, deck refresh, and more.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/fivetaku/opencode-oauth-fix"><b>opencode-oauth-fix</b></a>&nbsp;<a href="https://github.com/fivetaku/opencode-oauth-fix/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/opencode-oauth-fix?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>OpenCode Anthropic Claude OAuth authentication fix guide and setup script</sub>
     </td>
   </tr>
 </table>
