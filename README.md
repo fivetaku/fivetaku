@@ -59,14 +59,6 @@
 
 <br/>
 
-## Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,py,nodejs,nextjs,react,tailwind,sqlite,git,github,vscode&theme=dark" />
-</p>
-
-<br/>
-
 ## GitHub Stats
 
 <p align="center">
