@@ -55,7 +55,7 @@
 </table>
 <!-- HIGHLIGHTS:END -->
 
-<p align="center"><sub>⭐ star counts update live on every page view · repo list refreshed daily via GitHub Actions · last sync: <code>2026-04-22</code></sub></p>
+<p align="center"><sub>⭐ star counts update live on every page view · repo list refreshed daily via GitHub Actions · last sync: <code>2026-04-23</code></sub></p>
 
 <br/>
 
