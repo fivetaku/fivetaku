@@ -18,14 +18,14 @@
       <sub>Auto-bypass for blocked websites in Claude Code — Phase 0→3 adaptive scheduler, no API keys</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/cc101"><b>cc101</b></a>&nbsp;<a href="https://github.com/fivetaku/cc101/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/cc101?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>Claude Code 한국어 입문 가이드 &#124; Korean Beginner Guide for Claude Code</sub>
+      <a href="https://github.com/fivetaku/gptaku_plugins"><b>gptaku_plugins</b></a>&nbsp;<a href="https://github.com/fivetaku/gptaku_plugins/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/gptaku_plugins?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>A Claude Code plugin marketplace for people who want to become AI Native</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/gptaku_plugins"><b>gptaku_plugins</b></a>&nbsp;<a href="https://github.com/fivetaku/gptaku_plugins/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/gptaku_plugins?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>A Claude Code plugin marketplace for people who want to become AI Native</sub>
+      <a href="https://github.com/fivetaku/cc101"><b>cc101</b></a>&nbsp;<a href="https://github.com/fivetaku/cc101/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/cc101?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>Claude Code 한국어 입문 가이드 &#124; Korean Beginner Guide for Claude Code</sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/fivetaku/vibe-sunsang"><b>vibe-sunsang</b></a>&nbsp;<a href="https://github.com/fivetaku/vibe-sunsang/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/vibe-sunsang?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
