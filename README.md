@@ -48,8 +48,8 @@
       <sub>Claude in Excel & Claude in PowerPoint skills, restored as SKILL.md for Claude Code — DCF, LBO, 3-statement, comps, deck refresh, and more.</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/opencode-oauth-fix"><b>opencode-oauth-fix</b></a>&nbsp;<a href="https://github.com/fivetaku/opencode-oauth-fix/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/opencode-oauth-fix?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>OpenCode Anthropic Claude OAuth authentication fix guide and setup script</sub>
+      <a href="https://github.com/fivetaku/pumasi"><b>pumasi</b></a>&nbsp;<a href="https://github.com/fivetaku/pumasi/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/pumasi?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>Claude as PM + Codex CLI as parallel outsource developers — for large parallel coding tasks</sub>
     </td>
   </tr>
 </table>
