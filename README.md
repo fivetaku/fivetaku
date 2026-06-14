@@ -34,18 +34,18 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/content-pipeline"><b>content-pipeline</b></a>&nbsp;<a href="https://github.com/fivetaku/content-pipeline/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/content-pipeline?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>주제 하나로 리서치→카드뉴스→영상까지 자동 생성하는 Claude Code 스킬</sub>
+      <a href="https://github.com/fivetaku/fablize"><b>fablize</b></a>&nbsp;<a href="https://github.com/fivetaku/fablize/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/fablize?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/insane-design"><b>insane-design</b></a>&nbsp;<a href="https://github.com/fivetaku/insane-design/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/insane-design?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>URL one-shot design system extractor — fetches real CSS, analyzes tokens, generates design.md + interactive HTML report</sub>
+      <a href="https://github.com/fivetaku/content-pipeline"><b>content-pipeline</b></a>&nbsp;<a href="https://github.com/fivetaku/content-pipeline/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/content-pipeline?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>주제 하나로 리서치→카드뉴스→영상까지 자동 생성하는 Claude Code 스킬</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/fablize"><b>fablize</b></a>&nbsp;<a href="https://github.com/fivetaku/fablize/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/fablize?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.</sub>
+      <a href="https://github.com/fivetaku/insane-design"><b>insane-design</b></a>&nbsp;<a href="https://github.com/fivetaku/insane-design/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/insane-design?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>URL one-shot design system extractor — fetches real CSS, analyzes tokens, generates design.md + interactive HTML report</sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/fivetaku/claude-office-skills"><b>claude-office-skills</b></a>&nbsp;<a href="https://github.com/fivetaku/claude-office-skills/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/claude-office-skills?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
