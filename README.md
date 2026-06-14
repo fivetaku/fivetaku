@@ -44,12 +44,12 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/claude-office-skills"><b>claude-office-skills</b></a>&nbsp;<a href="https://github.com/fivetaku/claude-office-skills/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/claude-office-skills?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>Claude in Excel & Claude in PowerPoint skills, restored as SKILL.md for Claude Code — DCF, LBO, 3-statement, comps, deck refresh, and more.</sub>
+      <a href="https://github.com/fivetaku/fablize"><b>fablize</b></a>&nbsp;<a href="https://github.com/fivetaku/fablize/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/fablize?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/pumasi"><b>pumasi</b></a>&nbsp;<a href="https://github.com/fivetaku/pumasi/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/pumasi?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>Claude as PM + Codex CLI as parallel outsource developers — for large parallel coding tasks</sub>
+      <a href="https://github.com/fivetaku/claude-office-skills"><b>claude-office-skills</b></a>&nbsp;<a href="https://github.com/fivetaku/claude-office-skills/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/claude-office-skills?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>Claude in Excel & Claude in PowerPoint skills, restored as SKILL.md for Claude Code — DCF, LBO, 3-statement, comps, deck refresh, and more.</sub>
     </td>
   </tr>
 </table>
