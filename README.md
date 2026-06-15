@@ -28,14 +28,14 @@
       <sub>Claude Code 한국어 입문 가이드 &#124; Korean Beginner Guide for Claude Code</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/vibe-sunsang"><b>vibe-sunsang</b></a>&nbsp;<a href="https://github.com/fivetaku/vibe-sunsang/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/vibe-sunsang?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>AI mentor agent for vibecoders on Claude Code — conversation analysis, mentoring, growth reports</sub>
+      <a href="https://github.com/fivetaku/fablize"><b>fablize</b></a>&nbsp;<a href="https://github.com/fivetaku/fablize/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/fablize?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/fablize"><b>fablize</b></a>&nbsp;<a href="https://github.com/fivetaku/fablize/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/fablize?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.</sub>
+      <a href="https://github.com/fivetaku/vibe-sunsang"><b>vibe-sunsang</b></a>&nbsp;<a href="https://github.com/fivetaku/vibe-sunsang/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/vibe-sunsang?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>AI mentor agent for vibecoders on Claude Code — conversation analysis, mentoring, growth reports</sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/fivetaku/content-pipeline"><b>content-pipeline</b></a>&nbsp;<a href="https://github.com/fivetaku/content-pipeline/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/content-pipeline?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
@@ -55,7 +55,7 @@
 </table>
 <!-- HIGHLIGHTS:END -->
 
-<p align="center"><sub>⭐ star counts update live on every page view · repo list refreshed daily via GitHub Actions · last sync: <code>2026-06-14</code></sub></p>
+<p align="center"><sub>⭐ star counts update live on every page view · repo list refreshed daily via GitHub Actions · last sync: <code>2026-06-15</code></sub></p>
 
 <br/>
 
