@@ -24,12 +24,12 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/cc101"><b>cc101</b></a>&nbsp;<a href="https://github.com/fivetaku/cc101/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/cc101?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>Claude Code 한국어 입문 가이드 &#124; Korean Beginner Guide for Claude Code</sub>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://github.com/fivetaku/fablize"><b>fablize</b></a>&nbsp;<a href="https://github.com/fivetaku/fablize/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/fablize?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
       <sub>A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/fivetaku/cc101"><b>cc101</b></a>&nbsp;<a href="https://github.com/fivetaku/cc101/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/cc101?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>Claude Code 한국어 입문 가이드 &#124; Korean Beginner Guide for Claude Code</sub>
     </td>
   </tr>
   <tr>
@@ -55,7 +55,7 @@
 </table>
 <!-- HIGHLIGHTS:END -->
 
-<p align="center"><sub>⭐ star counts update live on every page view · repo list refreshed daily via GitHub Actions · last sync: <code>2026-06-15</code></sub></p>
+<p align="center"><sub>⭐ star counts update live on every page view · repo list refreshed daily via GitHub Actions · last sync: <code>2026-06-16</code></sub></p>
 
 <br/>
 
