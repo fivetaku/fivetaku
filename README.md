@@ -48,8 +48,8 @@
       <sub>URL one-shot design system extractor — fetches real CSS, analyzes tokens, generates design.md + interactive HTML report</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/claude-office-skills"><b>claude-office-skills</b></a>&nbsp;<a href="https://github.com/fivetaku/claude-office-skills/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/claude-office-skills?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>Claude in Excel & Claude in PowerPoint skills, restored as SKILL.md for Claude Code — DCF, LBO, 3-statement, comps, deck refresh, and more.</sub>
+      <a href="https://github.com/fivetaku/llm-wiki"><b>llm-wiki</b></a>&nbsp;<a href="https://github.com/fivetaku/llm-wiki/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/llm-wiki?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>raw 소스를 Claude Code가 위키로 합성·유지하는 영구 마크다운 지식베이스 템플릿 (LLM Wiki, Karpathy 패턴)</sub>
     </td>
   </tr>
 </table>
