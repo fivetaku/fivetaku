@@ -38,14 +38,14 @@
       <sub>AI mentor agent for vibecoders on Claude Code — conversation analysis, mentoring, growth reports</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/insane-design"><b>insane-design</b></a>&nbsp;<a href="https://github.com/fivetaku/insane-design/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/insane-design?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>URL one-shot design system extractor — fetches real CSS, analyzes tokens, generates design.md + interactive HTML report</sub>
+      <a href="https://github.com/fivetaku/gptaku-plugins-codex"><b>gptaku-plugins-codex</b></a>&nbsp;<a href="https://github.com/fivetaku/gptaku-plugins-codex/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/gptaku-plugins-codex?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>Codex-native GPTaku plugin marketplace</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/gptaku-plugins-codex"><b>gptaku-plugins-codex</b></a>&nbsp;<a href="https://github.com/fivetaku/gptaku-plugins-codex/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/gptaku-plugins-codex?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
-      <sub>Codex-native GPTaku plugin marketplace</sub>
+      <a href="https://github.com/fivetaku/insane-design"><b>insane-design</b></a>&nbsp;<a href="https://github.com/fivetaku/insane-design/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/insane-design?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
+      <sub>URL one-shot design system extractor — fetches real CSS, analyzes tokens, generates design.md + interactive HTML report</sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/fivetaku/content-pipeline"><b>content-pipeline</b></a>&nbsp;<a href="https://github.com/fivetaku/content-pipeline/stargazers"><img src="https://img.shields.io/github/stars/fivetaku/content-pipeline?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white" alt="stars" /></a><br/>
@@ -55,7 +55,7 @@
 </table>
 <!-- HIGHLIGHTS:END -->
 
-<p align="center"><sub>⭐ star counts update live on every page view · repo list refreshed daily via GitHub Actions · last sync: <code>2026-06-29</code></sub></p>
+<p align="center"><sub>⭐ star counts update live on every page view · repo list refreshed daily via GitHub Actions · last sync: <code>2026-06-30</code></sub></p>
 
 <br/>
 
