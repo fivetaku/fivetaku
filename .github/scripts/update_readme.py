@@ -258,10 +258,8 @@ def render_stat_tiles(total_stars: int, followers: int, repo_count: int) -> str:
         col, row = i % 2, i // 2
         x, y = col * (tw + gap), row * (th + gap)
         cx = x + tw / 2
-        begin = 0.15 + i * 0.18
         tiles.append(
-            f'<g opacity="0">'
-            f'<animate attributeName="opacity" begin="{begin:.2f}s" dur="0.5s" values="0;1" fill="freeze"/>'
+            f"<g>"
             f'<rect x="{x + 0.5}" y="{y + 0.5}" width="{tw - 1}" height="{th - 1}" rx="10" fill="#0D1117" stroke="#30363D"/>'
             f'<text x="{cx}" y="{y + 38}" text-anchor="middle" class="num" fill="url(#brand)">{esc(num)}</text>'
             f'<text x="{cx}" y="{y + 60}" text-anchor="middle" class="lbl" fill="{MUTED}">{esc(label)}</text>'
