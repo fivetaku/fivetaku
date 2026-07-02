@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="104" viewBox="0 0 880 104" role="img" aria-label="THE INSANE SERIES">
+  <style>
+    .caption { font-family: 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; letter-spacing: 1px; }
+    .big { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 46px; font-weight: 900; letter-spacing: 6px; }
+  </style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="translate(-880 0)">
+      <stop offset="0.35" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="0.65" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-880 0" to="880 0" dur="3.6s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <text x="440" y="20" text-anchor="middle" class="caption" fill="#8B949E">// warning: the following plugins do unreasonable things //</text>
+
+  <!-- glitch ghosts -->
+  <text x="437" y="72" text-anchor="middle" class="big" fill="#F97316" opacity="0">THE INSANE SERIES
+    <animate attributeName="opacity" calcMode="discrete"
+      values="0;0.55;0;0;0.4;0;0;0;0.5;0;0"
+      keyTimes="0;0.03;0.06;0.42;0.45;0.48;0.6;0.83;0.86;0.89;1"
+      dur="4.8s" repeatCount="indefinite"/>
+  </text>
+  <text x="443" y="70" text-anchor="middle" class="big" fill="#818CF8" opacity="0">THE INSANE SERIES
+    <animate attributeName="opacity" calcMode="discrete"
+      values="0;0.55;0;0;0.4;0;0;0.5;0;0"
+      keyTimes="0;0.04;0.07;0.5;0.53;0.56;0.84;0.87;0.9;1"
+      dur="4.8s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- main title -->
+  <text x="440" y="71" text-anchor="middle" class="big" fill="url(#brand)">THE INSANE SERIES</text>
+  <!-- moving shine overlay -->
+  <text x="440" y="71" text-anchor="middle" class="big" fill="url(#shine)">THE INSANE SERIES</text>
+
+  <text x="440" y="97" text-anchor="middle" class="caption" fill="#8B949E">no API keys · subscription only · it just gets in</text>
+</svg>
