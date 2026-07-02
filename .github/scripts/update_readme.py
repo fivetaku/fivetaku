@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -25,6 +26,23 @@ ROOT = Path(__file__).resolve().parents[2]
 TEMPLATE = ROOT / ".github" / "README.template.md"
 OUTPUT = ROOT / "README.md"
 HERO = ROOT / "assets" / "hero-terminal.svg"
+TILES = ROOT / "assets" / "stat-tiles.svg"
+
+
+def fmt_stars(n: int) -> str:
+    if n >= 1000:
+        return f"{n / 1000:.1f}k".replace(".0k", "k")
+    return str(n)
+
+
+def static_badge(count: int, style: str) -> str:
+    # Static badge: no GitHub API call behind it, so it can never come back
+    # as "invalid" when shields' API quota is rate-limited. The count itself
+    # is refreshed every 6h by this script (URL change also busts camo cache).
+    return (
+        f"https://img.shields.io/badge/stars-{fmt_stars(count)}-F97316"
+        f"?style={style}&labelColor=0D1117&logo=github&logoColor=white"
+    )
 
 # ---------------------------------------------------------------- GitHub API
 
@@ -65,10 +83,7 @@ def render_highlights(repos: list[dict]) -> str:
         for repo in pair:
             name = repo["name"]
             desc = (repo.get("description") or "").replace("|", "&#124;").strip()
-            badge = (
-                f"https://img.shields.io/github/stars/{USER}/{name}"
-                f"?style=flat&color=F97316&labelColor=0D1117&logo=github&logoColor=white"
-            )
+            badge = static_badge(repo.get("stargazers_count", 0), "flat")
             rows.append("    <td width=\"50%\" valign=\"top\">")
             rows.append(
                 f"      <a href=\"https://github.com/{USER}/{name}\"><b>{name}</b></a>"
@@ -226,6 +241,51 @@ def build_hero(repos: list[dict], followers: int) -> str:
     return render_hero(lines, total_dur)
 
 
+# ---------------------------------------------------------------- stat tiles
+# Self-rendered 2x2 stat card (replaces github-readme-stats, whose public
+# instance is chronically rate-limited). Data comes from the same API pull.
+
+def render_stat_tiles(total_stars: int, followers: int, repo_count: int) -> str:
+    stats = [
+        (f"{total_stars:,}", "stars shipped"),
+        (str(PLUGIN_COUNT), "plugins in the marketplace"),
+        (f"{followers:,}", "followers"),
+        (str(repo_count), "open-source repos"),
+    ]
+    tw, th, gap = 207, 79, 12
+    tiles = []
+    for i, (num, label) in enumerate(stats):
+        col, row = i % 2, i // 2
+        x, y = col * (tw + gap), row * (th + gap)
+        cx = x + tw / 2
+        begin = 0.15 + i * 0.18
+        tiles.append(
+            f'<g opacity="0">'
+            f'<animate attributeName="opacity" begin="{begin:.2f}s" dur="0.5s" values="0;1" fill="freeze"/>'
+            f'<rect x="{x + 0.5}" y="{y + 0.5}" width="{tw - 1}" height="{th - 1}" rx="10" fill="#0D1117" stroke="#30363D"/>'
+            f'<text x="{cx}" y="{y + 38}" text-anchor="middle" class="num" fill="url(#brand)">{esc(num)}</text>'
+            f'<text x="{cx}" y="{y + 60}" text-anchor="middle" class="lbl" fill="{MUTED}">{esc(label)}</text>'
+            f"</g>"
+        )
+    w = tw * 2 + gap
+    h = th * 2 + gap
+    tiles_s = "\n  ".join(tiles)
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="GPTaku stats">
+  <style>
+    .num {{ font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 27px; font-weight: 800; }}
+    .lbl {{ font-family: 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace; font-size: 11.5px; }}
+  </style>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="{ORANGE}"/>
+      <stop offset="1" stop-color="{INDIGO}"/>
+    </linearGradient>
+  </defs>
+  {tiles_s}
+</svg>
+"""
+
+
 # ----------------------------------------------------------------------- main
 
 def main() -> None:
@@ -236,9 +296,12 @@ def main() -> None:
 
     grid = [r for r in repos if not r["name"].startswith(INSANE_PREFIX)]
     top = sorted(grid, key=lambda r: r.get("stargazers_count", 0), reverse=True)[:TOP_N]
+    stars = {r["name"]: r.get("stargazers_count", 0) for r in repos}
+    total_stars = sum(stars.values())
 
     HERO.parent.mkdir(parents=True, exist_ok=True)
     HERO.write_text(build_hero(repos, followers), encoding="utf-8")
+    TILES.write_text(render_stat_tiles(total_stars, followers, len(repos)), encoding="utf-8")
 
     template = TEMPLATE.read_text(encoding="utf-8")
     rendered = (
@@ -246,9 +309,15 @@ def main() -> None:
         .replace("{{HIGHLIGHTS}}", render_highlights(top))
         .replace("{{LAST_SYNC}}", datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     )
+    # {{STARS:<repo>}} -> static badge count for that repo
+    rendered = re.sub(
+        r"\{\{STARS:([A-Za-z0-9._-]+)\}\}",
+        lambda m: fmt_stars(stars.get(m.group(1), 0)),
+        rendered,
+    )
     OUTPUT.write_text(rendered, encoding="utf-8")
     print(f"Wrote {OUTPUT} with {len(top)} repos: {[r['name'] for r in top]}")
-    print(f"Wrote {HERO}")
+    print(f"Wrote {HERO} and {TILES}")
 
 
 if __name__ == "__main__":
