@@ -9,6 +9,7 @@ Two live layers:
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -297,14 +298,22 @@ def main() -> None:
     stars = {r["name"]: r.get("stargazers_count", 0) for r in repos}
     total_stars = sum(stars.values())
 
+    hero_svg = build_hero(repos, followers)
+    tiles_svg = render_stat_tiles(total_stars, followers, len(repos))
     HERO.parent.mkdir(parents=True, exist_ok=True)
-    HERO.write_text(build_hero(repos, followers), encoding="utf-8")
-    TILES.write_text(render_stat_tiles(total_stars, followers, len(repos)), encoding="utf-8")
+    HERO.write_text(hero_svg, encoding="utf-8")
+    TILES.write_text(tiles_svg, encoding="utf-8")
+
+    # content-hash cache busters: camo re-fetches exactly when the SVG changes
+    hero_v = hashlib.md5(hero_svg.encode()).hexdigest()[:8]
+    tiles_v = hashlib.md5(tiles_svg.encode()).hexdigest()[:8]
 
     template = TEMPLATE.read_text(encoding="utf-8")
     rendered = (
         template
         .replace("{{HIGHLIGHTS}}", render_highlights(top))
+        .replace("{{HERO_V}}", hero_v)
+        .replace("{{TILES_V}}", tiles_v)
         .replace("{{LAST_SYNC}}", datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     )
     # {{STARS:<repo>}} -> static badge count for that repo
