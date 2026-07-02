@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-"""Regenerate README.md + assets/hero-terminal.svg with live GitHub data.
+"""Regenerate README.md + generated SVG assets with live GitHub data.
 
-Two live layers:
-  - shields.io star badges refresh on every page view
-  - this script (GitHub Actions, every 6h) refreshes which repos appear in the
-    highlights grid AND re-renders the animated terminal hero with current
-    star counts / follower count baked in
+Runs on GitHub Actions every 6h. One iconography rule: the octicon star
+(STAR_PATH), brand orange, everywhere — badges, hero terminal, footnote.
+No platform emoji, no octocat logos, no unicode-star mixing.
 """
 from __future__ import annotations
 
+import base64
 import hashlib
 import json
 import os
@@ -29,6 +28,33 @@ OUTPUT = ROOT / "README.md"
 HERO = ROOT / "assets" / "hero-terminal.svg"
 TILES = ROOT / "assets" / "stat-tiles.svg"
 
+ORANGE = "#F97316"
+INDIGO = "#818CF8"
+TEXT = "#E6EDF3"
+MUTED = "#8B949E"
+GREEN = "#3FB950"
+
+# The one true star: GitHub's octicon star-fill (16x16 viewBox) — matches the
+# stars GitHub itself draws in the pinned-repos section.
+STAR_PATH = (
+    "M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 "
+    ".416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 "
+    "12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 "
+    "6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"
+)
+
+
+def star_logo_param() -> str:
+    """shields.io custom-logo query param carrying the octicon star in orange."""
+    svg = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" '
+        f'fill="{ORANGE}"><path d="{STAR_PATH}"/></svg>'
+    )
+    b64 = base64.b64encode(svg.encode()).decode()
+    # percent-encode: '+' in a query string would decode as a space
+    b64 = b64.replace("+", "%2B").replace("/", "%2F").replace("=", "%3D")
+    return f"data:image/svg%2Bxml;base64,{b64}"
+
 
 def fmt_stars(n: int) -> str:
     if n >= 1000:
@@ -41,9 +67,10 @@ def static_badge(count: int, style: str) -> str:
     # as "invalid" when shields' API quota is rate-limited. The count itself
     # is refreshed every 6h by this script (URL change also busts camo cache).
     return (
-        f"https://img.shields.io/badge/stars-{fmt_stars(count)}-F97316"
-        f"?style={style}&labelColor=0D1117&logo=github&logoColor=white"
+        f"https://img.shields.io/badge/-{fmt_stars(count)}-F97316"
+        f"?style={style}&labelColor=0D1117&logo={star_logo_param()}"
     )
+
 
 # ---------------------------------------------------------------- GitHub API
 
@@ -104,19 +131,14 @@ def render_highlights(repos: list[dict]) -> str:
 # ------------------------------------------------------------- hero terminal
 # Animated SVG that replays a Claude Code session. SMIL only (works through
 # GitHub's camo proxy). Typed lines reveal via discrete clip-path steps,
-# output lines fade in, final cursor blinks forever.
+# output lines fade in, result lines get a right-aligned [star count] column,
+# final cursor blinks forever.
 
 W = 880
 MARGIN_X = 28
 BODY_TOP = 62
 LINE_H = 25
 CHAR_W = 9.05  # 15px monospace advance (Menlo/SF Mono)
-
-ORANGE = "#F97316"
-INDIGO = "#818CF8"
-TEXT = "#E6EDF3"
-MUTED = "#8B949E"
-GREEN = "#3FB950"
 
 
 def esc(s: str) -> str:
@@ -131,12 +153,20 @@ def tspans(segments: list[tuple[str, str]]) -> str:
     return "".join(parts)
 
 
+def star_icon(x: float, y: float, size: float = 13.0) -> str:
+    scale = size / 16
+    return (
+        f'<g transform="translate({x:.1f} {y:.1f}) scale({scale:.4f})">'
+        f'<path d="{STAR_PATH}" fill="{ORANGE}"/></g>'
+    )
+
+
 def render_hero(lines: list[tuple], total_dur_out: list[float]) -> str:
     defs: list[str] = []
     body: list[str] = []
     t = 0.6
     y = BODY_TOP
-    last_chars = 0
+    cursor_x = MARGIN_X
 
     for i, line in enumerate(lines):
         kind = line[0]
@@ -145,6 +175,7 @@ def render_hero(lines: list[tuple], total_dur_out: list[float]) -> str:
             continue
         segments = line[1]
         plain = "".join(s for s, _ in segments)
+
         if kind == "typed":
             chars = len(plain)
             dur = max(0.5, chars * 0.045)
@@ -162,31 +193,47 @@ def render_hero(lines: list[tuple], total_dur_out: list[float]) -> str:
                 f'<text x="{MARGIN_X}" y="{y}" clip-path="url(#tc{i})">{tspans(segments)}</text>'
             )
             t += dur + 0.12
-        else:  # out
+            cursor_x = MARGIN_X + len(plain) * 8.9 + 4
+        else:
+            # "out" fades in; optional star count right-aligns as a column
+            count = line[2] if len(line) > 2 else None
+            lead_star = len(line) > 3 and line[3]
+            text_x = MARGIN_X
+            inner = ""
+            if lead_star:
+                inner += star_icon(MARGIN_X + 2, y - 12)
+                text_x = MARGIN_X + 22
+            inner += f'<text x="{text_x}" y="{y}">{tspans(segments)}</text>'
+            if count is not None:
+                num = f"{count:,}"
+                num_w = len(num) * CHAR_W
+                inner += star_icon(W - MARGIN_X - num_w - 20, y - 12)
+                inner += (
+                    f'<text x="{W - MARGIN_X}" y="{y}" text-anchor="end" '
+                    f'fill="{ORANGE}" font-weight="700">{num}</text>'
+                )
             body.append(
-                f'<text x="{MARGIN_X}" y="{y}" opacity="0">{tspans(segments)}'
+                f'<g opacity="0">{inner}'
                 f'<animate attributeName="opacity" begin="{t:.2f}s" dur="0.4s" values="0;1" fill="freeze"/>'
-                f"</text>"
+                f"</g>"
             )
             t += 0.5
-        last_chars = len(plain)
+            cursor_x = text_x + len(plain) * 8.9 + 6
         y += LINE_H
 
     total_dur_out.append(t)
     height = y - LINE_H + 26
 
     # blinking block cursor after the last line (rect: SMIL-safe everywhere)
-    cursor_x = MARGIN_X + last_chars * 8.9 + 4
-    cursor_y = y - LINE_H - 14
     body.append(
-        f'<rect x="{cursor_x:.0f}" y="{cursor_y}" width="9" height="17" fill="{ORANGE}" opacity="0">'
+        f'<rect x="{cursor_x:.0f}" y="{y - LINE_H - 14}" width="9" height="17" fill="{ORANGE}" opacity="0">'
         f'<animate attributeName="opacity" begin="{t:.2f}s" dur="1.1s" '
         f'calcMode="discrete" values="1;0" repeatCount="indefinite"/></rect>'
     )
     defs_s = "\n    ".join(defs)
     body_s = "\n  ".join(body)
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="GPTaku — live Claude Code session">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height + 16}" viewBox="0 -8 {W} {height + 16}" role="img" aria-label="GPTaku — live Claude Code session">
   <style>
     text {{ font-family: 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; font-size: 15px; }}
     .title {{ font-size: 12.5px; }}
@@ -196,9 +243,13 @@ def render_hero(lines: list[tuple], total_dur_out: list[float]) -> str:
       <stop offset="0" stop-color="{ORANGE}"/>
       <stop offset="1" stop-color="{INDIGO}"/>
     </linearGradient>
+    <filter id="halo" x="-5%" y="-15%" width="110%" height="130%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
     {defs_s}
   </defs>
 
+  <rect x="6" y="-2" width="{W - 12}" height="{height + 4}" rx="14" fill="url(#brand)" opacity="0.35" filter="url(#halo)"/>
   <rect x="0.5" y="0.5" width="{W - 1}" height="{height - 1}" rx="12" fill="#0D1117" stroke="#30363D"/>
   <path d="M 0.5 12 A 12 12 0 0 1 12 0.5 H {W - 12} A 12 12 0 0 1 {W - 0.5} 12 V 38 H 0.5 Z" fill="#161B22"/>
   <rect x="0.5" y="38" width="{W - 1}" height="1.5" fill="url(#brand)"/>
@@ -215,27 +266,24 @@ def render_hero(lines: list[tuple], total_dur_out: list[float]) -> str:
 def build_hero(repos: list[dict], followers: int) -> str:
     stars = {r["name"]: r.get("stargazers_count", 0) for r in repos}
     total = sum(stars.values())
-
-    def n(name: str) -> str:
-        return f"{stars.get(name, 0):,}"
-
     grad = "url(#brand)"
+
     lines: list[tuple] = [
         ("typed", [("$ ", ORANGE), ("claude", TEXT)]),
         ("out", [("✻ ", ORANGE), ("Welcome back, ", TEXT), ("GPTaku", grad), (".", TEXT)]),
         ("blank",),
         ("typed", [("> ", INDIGO), ("/insane-search", TEXT), ("  reddit.com — blocked, 403", MUTED)]),
-        ("out", [("  ● ", INDIGO), ("WAF profiled → TLS impersonation → in. ", MUTED), ("✓", GREEN), (f"  {n('insane-search')} ★", ORANGE)]),
+        ("out", [("  ● ", INDIGO), ("WAF profiled → TLS impersonation → in. ", MUTED), ("✓", GREEN)], stars.get("insane-search", 0)),
         ("blank",),
         ("typed", [("> ", INDIGO), ("/fablize", TEXT), ("  make Opus ship like Fable", MUTED)]),
-        ("out", [("  ● ", INDIGO), ("completion · evidence · verification — enforced ", MUTED), ("✓", GREEN), (f"  {n('fablize')} ★", ORANGE)]),
+        ("out", [("  ● ", INDIGO), ("completion · evidence · verification — enforced ", MUTED), ("✓", GREEN)], stars.get("fablize", 0)),
         ("blank",),
         ("typed", [("> ", INDIGO), ("/pumasi", TEXT), ("  build the whole marketplace in parallel", MUTED)]),
-        ("out", [("  ● ", INDIGO), (f"{PLUGIN_COUNT} plugins shipped → gptaku_plugins ", MUTED), ("✓", GREEN), (f"  {n('gptaku_plugins')} ★", ORANGE)]),
+        ("out", [("  ● ", INDIGO), (f"{PLUGIN_COUNT} plugins shipped → gptaku_plugins ", MUTED), ("✓", GREEN)], stars.get("gptaku_plugins", 0)),
         ("blank",),
         ("typed", [("> ", INDIGO), ("whoami", TEXT)]),
         ("out", [("  ", TEXT), ("GPTaku", grad), (" — building the Claude Code plugin ecosystem", TEXT)]),
-        ("out", [(f"  ★ {total:,} stars shipped", ORANGE), (f" · {followers:,} followers · next plugin loading", MUTED)]),
+        ("out", [(f"{total:,} stars shipped", ORANGE), (f" · {followers:,} followers · next plugin loading", MUTED)], None, True),
     ]
 
     total_dur: list[float] = []
@@ -248,21 +296,29 @@ def build_hero(repos: list[dict], followers: int) -> str:
 
 def render_stat_tiles(total_stars: int, followers: int, repo_count: int) -> str:
     stats = [
-        (f"{total_stars:,}", "stars shipped"),
-        (str(PLUGIN_COUNT), "plugins in the marketplace"),
-        (f"{followers:,}", "followers"),
-        (str(repo_count), "open-source repos"),
+        (f"{total_stars:,}", "stars shipped", True),
+        (str(PLUGIN_COUNT), "plugins in the marketplace", False),
+        (f"{followers:,}", "followers", False),
+        (str(repo_count), "open-source repos", False),
     ]
     tw, th, gap = 207, 79, 12
     tiles = []
-    for i, (num, label) in enumerate(stats):
+    for i, (num, label, with_star) in enumerate(stats):
         col, row = i % 2, i // 2
         x, y = col * (tw + gap), row * (th + gap)
         cx = x + tw / 2
+        star = ""
+        num_x = cx
+        if with_star:
+            # star sits left of the centered number; ~15px per digit at 27px/800
+            num_w = len(num) * 15
+            star = star_icon(cx - num_w / 2 - 21, y + 22, 15)
+            num_x = cx + 10
         tiles.append(
             f"<g>"
             f'<rect x="{x + 0.5}" y="{y + 0.5}" width="{tw - 1}" height="{th - 1}" rx="10" fill="#0D1117" stroke="#30363D"/>'
-            f'<text x="{cx}" y="{y + 38}" text-anchor="middle" class="num" fill="url(#brand)">{esc(num)}</text>'
+            f"{star}"
+            f'<text x="{num_x}" y="{y + 38}" text-anchor="middle" class="num" fill="url(#brand)">{esc(num)}</text>'
             f'<text x="{cx}" y="{y + 60}" text-anchor="middle" class="lbl" fill="{MUTED}">{esc(label)}</text>'
             f"</g>"
         )
@@ -314,9 +370,10 @@ def main() -> None:
         .replace("{{HIGHLIGHTS}}", render_highlights(top))
         .replace("{{HERO_V}}", hero_v)
         .replace("{{TILES_V}}", tiles_v)
+        .replace("{{BADGE_LOGO}}", star_logo_param())
         .replace("{{LAST_SYNC}}", datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     )
-    # {{STARS:<repo>}} -> static badge count for that repo
+    # {{STARS:<repo>}} -> formatted count for that repo
     rendered = re.sub(
         r"\{\{STARS:([A-Za-z0-9._-]+)\}\}",
         lambda m: fmt_stars(stars.get(m.group(1), 0)),
