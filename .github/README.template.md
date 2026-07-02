@@ -11,24 +11,24 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/fivetaku/insane-search"><code>/insane-search</code></a></h3>
-      <a href="https://github.com/fivetaku/insane-search/stargazers"><img src="https://img.shields.io/badge/-{{STARS:insane-search}}-F97316?style=for-the-badge&labelColor=0D1117&logo={{BADGE_LOGO}}" alt="stars" /></a>
+      <a href="https://github.com/fivetaku/insane-search/stargazers"><img src="https://img.shields.io/badge/-{{STARS:insane-search}}-F97316?style=flat&labelColor=0D1117&logo={{BADGE_LOGO}}" alt="stars" /></a>
       <p><sub>Blocked site? It gets in anyway. Phase 0→3 adaptive bypass — WAF profiling, TLS impersonation, a 1,858-site media engine. Zero API keys.</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/fivetaku/insane-design"><code>/insane-design</code></a></h3>
-      <a href="https://github.com/fivetaku/insane-design/stargazers"><img src="https://img.shields.io/badge/-{{STARS:insane-design}}-F97316?style=for-the-badge&labelColor=0D1117&logo={{BADGE_LOGO}}" alt="stars" /></a>
+      <a href="https://github.com/fivetaku/insane-design/stargazers"><img src="https://img.shields.io/badge/-{{STARS:insane-design}}-F97316?style=flat&labelColor=0D1117&logo={{BADGE_LOGO}}" alt="stars" /></a>
       <p><sub>One URL in → a full design system out. Fetches the real CSS, extracts the tokens, ships <code>design.md</code> plus an interactive HTML report.</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/fivetaku/insane-review"><code>/insane-review</code></a></h3>
-      <a href="https://github.com/fivetaku/insane-review/stargazers"><img src="https://img.shields.io/badge/-{{STARS:insane-review}}-F97316?style=for-the-badge&labelColor=0D1117&logo={{BADGE_LOGO}}" alt="stars" /></a>
+      <a href="https://github.com/fivetaku/insane-review/stargazers"><img src="https://img.shields.io/badge/-{{STARS:insane-review}}-F97316?style=flat&labelColor=0D1117&logo={{BADGE_LOGO}}" alt="stars" /></a>
       <p><sub>GPT-5.5 Pro has no API. Irrelevant. It repomix-packs your code, drives the ChatGPT Pro web UI itself, and harvests the review. API cost: $0.</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/fivetaku/insane-research"><code>/insane-research</code></a></h3>
-      <a href="https://github.com/fivetaku/insane-research/stargazers"><img src="https://img.shields.io/badge/-{{STARS:insane-research}}-F97316?style=for-the-badge&labelColor=0D1117&logo={{BADGE_LOGO}}" alt="stars" /></a>
+      <a href="https://github.com/fivetaku/insane-research/stargazers"><img src="https://img.shields.io/badge/-{{STARS:insane-research}}-F97316?style=flat&labelColor=0D1117&logo={{BADGE_LOGO}}" alt="stars" /></a>
       <p><sub>Multi-agent deep research — a 7-phase pipeline with source triangulation and quality ratings. Depth on demand, inside Claude Code.</sub></p>
     </td>
   </tr>
