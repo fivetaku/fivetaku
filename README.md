@@ -1,5 +1,5 @@
 <a href="https://github.com/fivetaku/gptaku_plugins">
-  <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/hero-terminal.svg?v=421be850" alt="GPTaku — live Claude Code session: /insane-search bypasses a blocked site, /fablize enforces verification, /pumasi ships the marketplace" />
+  <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/hero-terminal.svg?v=0e4bb41e" alt="GPTaku — live Claude Code session: /insane-search bypasses a blocked site, /fablize enforces verification, /pumasi ships the marketplace" />
 </a>
 
 <br/>
@@ -23,7 +23,7 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/fivetaku/insane-review"><code>/insane-review</code></a></h3>
-      <a href="https://github.com/fivetaku/insane-review/stargazers"><img src="https://img.shields.io/badge/-96-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a>
+      <a href="https://github.com/fivetaku/insane-review/stargazers"><img src="https://img.shields.io/badge/-97-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a>
       <p><sub>GPT-5.5 Pro has no API. Irrelevant. It repomix-packs your code, drives the ChatGPT Pro web UI itself, and harvests the review. API cost: $0.</sub></p>
     </td>
     <td width="50%" valign="top">
@@ -42,11 +42,11 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/fablize"><b>fablize</b></a>&nbsp;<a href="https://github.com/fivetaku/fablize/stargazers"><img src="https://img.shields.io/badge/-820-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
+      <a href="https://github.com/fivetaku/fablize"><b>fablize</b></a>&nbsp;<a href="https://github.com/fivetaku/fablize/stargazers"><img src="https://img.shields.io/badge/-821-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
       <sub>A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/gptaku_plugins"><b>gptaku_plugins</b></a>&nbsp;<a href="https://github.com/fivetaku/gptaku_plugins/stargazers"><img src="https://img.shields.io/badge/-759-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
+      <a href="https://github.com/fivetaku/gptaku_plugins"><b>gptaku_plugins</b></a>&nbsp;<a href="https://github.com/fivetaku/gptaku_plugins/stargazers"><img src="https://img.shields.io/badge/-762-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
       <sub>A Claude Code plugin marketplace for people who want to become AI Native</sub>
     </td>
   </tr>
@@ -90,7 +90,7 @@
 <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/section-graph.svg" alt="the graph doesn&#39;t lie" />
 
 <p align="center">
-  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=5852c84c" alt="GPTaku stats" />
+  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=82f6c904" alt="GPTaku stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=fivetaku&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="Streak" />
 </p>
 
