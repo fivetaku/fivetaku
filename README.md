@@ -1,5 +1,5 @@
 <a href="https://github.com/fivetaku/gptaku_plugins">
-  <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/hero-terminal.svg?v=8d9906b0" alt="GPTaku — live Claude Code session: /insane-search bypasses a blocked site, /fablize enforces verification, /pumasi ships the marketplace" />
+  <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/hero-terminal.svg?v=1fed7e5a" alt="GPTaku — live Claude Code session: /insane-search bypasses a blocked site, /fablize enforces verification, /pumasi ships the marketplace" />
 </a>
 
 <br/>
@@ -23,12 +23,12 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/fivetaku/insane-review"><code>/insane-review</code></a></h3>
-      <a href="https://github.com/fivetaku/insane-review/stargazers"><img src="https://img.shields.io/badge/-112-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a>
+      <a href="https://github.com/fivetaku/insane-review/stargazers"><img src="https://img.shields.io/badge/-113-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a>
       <p><sub>GPT-5.5 Pro has no API. Irrelevant. It repomix-packs your code, drives the ChatGPT Pro web UI itself, and harvests the review. API cost: $0.</sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/fivetaku/insane-research"><code>/insane-research</code></a></h3>
-      <a href="https://github.com/fivetaku/insane-research/stargazers"><img src="https://img.shields.io/badge/-116-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a>
+      <a href="https://github.com/fivetaku/insane-research/stargazers"><img src="https://img.shields.io/badge/-117-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a>
       <p><sub>Multi-agent deep research — a 7-phase pipeline with source triangulation and quality ratings. Depth on demand, inside Claude Code.</sub></p>
     </td>
   </tr>
@@ -42,11 +42,11 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/fablize"><b>fablize</b></a>&nbsp;<a href="https://github.com/fivetaku/fablize/stargazers"><img src="https://img.shields.io/badge/-885-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
+      <a href="https://github.com/fivetaku/fablize"><b>fablize</b></a>&nbsp;<a href="https://github.com/fivetaku/fablize/stargazers"><img src="https://img.shields.io/badge/-886-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
       <sub>A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/gptaku_plugins"><b>gptaku_plugins</b></a>&nbsp;<a href="https://github.com/fivetaku/gptaku_plugins/stargazers"><img src="https://img.shields.io/badge/-882-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
+      <a href="https://github.com/fivetaku/gptaku_plugins"><b>gptaku_plugins</b></a>&nbsp;<a href="https://github.com/fivetaku/gptaku_plugins/stargazers"><img src="https://img.shields.io/badge/-883-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
       <sub>A Claude Code plugin marketplace for people who want to become AI Native</sub>
     </td>
   </tr>
@@ -56,7 +56,7 @@
       <sub>Claude Code 한국어 입문 가이드 &#124; Korean Beginner Guide for Claude Code</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/vibe-sunsang"><b>vibe-sunsang</b></a>&nbsp;<a href="https://github.com/fivetaku/vibe-sunsang/stargazers"><img src="https://img.shields.io/badge/-172-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
+      <a href="https://github.com/fivetaku/vibe-sunsang"><b>vibe-sunsang</b></a>&nbsp;<a href="https://github.com/fivetaku/vibe-sunsang/stargazers"><img src="https://img.shields.io/badge/-173-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
       <sub>AI mentor agent for vibecoders on Claude Code — conversation analysis, mentoring, growth reports</sub>
     </td>
   </tr>
@@ -83,14 +83,14 @@
 </table>
 <!-- HIGHLIGHTS:END -->
 
-<p align="center"><sub><img src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/star.svg" height="11" alt="star" /> counts, hero terminal &amp; repo list auto-refresh every 6h via GitHub Actions · last sync: <code>2026-07-27</code></sub></p>
+<p align="center"><sub><img src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/star.svg" height="11" alt="star" /> counts, hero terminal &amp; repo list auto-refresh every 6h via GitHub Actions · last sync: <code>2026-07-28</code></sub></p>
 
 <br/>
 
 <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/section-graph.svg" alt="the graph doesn&#39;t lie" />
 
 <p align="center">
-  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=ee99ab51" alt="GPTaku stats" />
+  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=296f32bb" alt="GPTaku stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=fivetaku&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="Streak" />
 </p>
 
