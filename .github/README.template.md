@@ -64,4 +64,16 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/fivetaku/fivetaku/output/github-snake-dark.svg" width="100%" />
 </picture>
 
+<br/>
+
+<p align="center">
+  <a href="https://github.com/sponsors/fivetaku">
+    <img src="https://img.shields.io/badge/sponsor-fivetaku-F97316?style=for-the-badge&labelColor=0D1117&logo=githubsponsors&logoColor=F97316" alt="Sponsor fivetaku" />
+  </a>
+</p>
+
+<p align="center"><sub>Every Claude Code release quietly breaks something. Sponsoring buys the time to fix it — and to build the next one.</sub></p>
+
+<br/>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:6366F1&height=100&section=footer"/>
