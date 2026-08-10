@@ -1,5 +1,5 @@
 <a href="https://github.com/fivetaku/gptaku_plugins">
-  <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/hero-terminal.svg?v=201b1eb1" alt="GPTaku — live Claude Code session: /insane-search bypasses a blocked site, /fablize enforces verification, /pumasi ships the marketplace" />
+  <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/hero-terminal.svg?v=b46f3e6c" alt="GPTaku — live Claude Code session: /insane-search bypasses a blocked site, /fablize enforces verification, /pumasi ships the marketplace" />
 </a>
 
 <br/>
@@ -56,7 +56,7 @@
       <sub>Claude Code 한국어 입문 가이드 &#124; Korean Beginner Guide for Claude Code</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/fivetaku/vibe-sunsang"><b>vibe-sunsang</b></a>&nbsp;<a href="https://github.com/fivetaku/vibe-sunsang/stargazers"><img src="https://img.shields.io/badge/-180-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
+      <a href="https://github.com/fivetaku/vibe-sunsang"><b>vibe-sunsang</b></a>&nbsp;<a href="https://github.com/fivetaku/vibe-sunsang/stargazers"><img src="https://img.shields.io/badge/-181-F97316?style=flat&labelColor=0D1117&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI0Y5NzMxNiI%2BPHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiLz48L3N2Zz4%3D" alt="stars" /></a><br/>
       <sub>AI mentor agent for vibecoders on Claude Code — conversation analysis, mentoring, growth reports</sub>
     </td>
   </tr>
@@ -90,7 +90,7 @@
 <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/section-graph.svg" alt="the graph doesn&#39;t lie" />
 
 <p align="center">
-  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=38ee1732" alt="GPTaku stats" />
+  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=64736f51" alt="GPTaku stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=fivetaku&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="Streak" />
 </p>
 
