@@ -90,7 +90,7 @@
 <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/section-graph.svg" alt="the graph doesn&#39;t lie" />
 
 <p align="center">
-  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=e4ea9783" alt="GPTaku stats" />
+  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=38ee1732" alt="GPTaku stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=fivetaku&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="Streak" />
 </p>
 
@@ -104,5 +104,17 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fivetaku/fivetaku/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/fivetaku/fivetaku/output/github-snake-dark.svg" width="100%" />
 </picture>
+
+<br/>
+
+<p align="center">
+  <a href="https://github.com/sponsors/fivetaku">
+    <img src="https://img.shields.io/badge/sponsor-fivetaku-F97316?style=for-the-badge&labelColor=0D1117&logo=githubsponsors&logoColor=F97316" alt="Sponsor fivetaku" />
+  </a>
+</p>
+
+<p align="center"><sub>Every Claude Code release quietly breaks something. Sponsoring buys the time to fix it — and to build the next one.</sub></p>
+
+<br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:6366F1&height=100&section=footer"/>
