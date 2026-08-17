@@ -1,5 +1,5 @@
 <a href="https://github.com/fivetaku/gptaku_plugins">
-  <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/hero-terminal.svg?v=80ac7b27" alt="GPTaku — live Claude Code session: /insane-search bypasses a blocked site, /fablize enforces verification, /pumasi ships the marketplace" />
+  <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/hero-terminal.svg?v=039b1fc6" alt="GPTaku — live Claude Code session: /insane-search bypasses a blocked site, /fablize enforces verification, /pumasi ships the marketplace" />
 </a>
 
 <br/>
@@ -90,7 +90,7 @@
 <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/section-graph.svg" alt="the graph doesn&#39;t lie" />
 
 <p align="center">
-  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=f17af161" alt="GPTaku stats" />
+  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=ea2b2140" alt="GPTaku stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=fivetaku&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="Streak" />
 </p>
 
