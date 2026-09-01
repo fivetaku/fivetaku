@@ -1,5 +1,5 @@
 <a href="https://github.com/fivetaku/gptaku_plugins">
-  <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/hero-terminal.svg?v=ca2e3928" alt="GPTaku — live Claude Code session: /insane-search bypasses a blocked site, /fablize enforces verification, /pumasi ships the marketplace" />
+  <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/hero-terminal.svg?v=3f527a31" alt="GPTaku — live Claude Code session: /insane-search bypasses a blocked site, /fablize enforces verification, /pumasi ships the marketplace" />
 </a>
 
 <br/>
@@ -83,14 +83,14 @@
 </table>
 <!-- HIGHLIGHTS:END -->
 
-<p align="center"><sub><img src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/star.svg" height="11" alt="star" /> counts, hero terminal &amp; repo list auto-refresh every 6h via GitHub Actions · last sync: <code>2026-08-31</code></sub></p>
+<p align="center"><sub><img src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/star.svg" height="11" alt="star" /> counts, hero terminal &amp; repo list auto-refresh every 6h via GitHub Actions · last sync: <code>2026-09-01</code></sub></p>
 
 <br/>
 
 <img width="100%" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/section-graph.svg" alt="the graph doesn&#39;t lie" />
 
 <p align="center">
-  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=4a013498" alt="GPTaku stats" />
+  <img height="170" src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/stat-tiles.svg?v=e17ee2a8" alt="GPTaku stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=fivetaku&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="Streak" />
 </p>
 
