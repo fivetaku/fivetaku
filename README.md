@@ -83,7 +83,7 @@
 </table>
 <!-- HIGHLIGHTS:END -->
 
-<p align="center"><sub><img src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/star.svg" height="11" alt="star" /> counts, hero terminal &amp; repo list auto-refresh every 6h via GitHub Actions · last sync: <code>2026-09-10</code></sub></p>
+<p align="center"><sub><img src="https://raw.githubusercontent.com/fivetaku/fivetaku/main/assets/star.svg" height="11" alt="star" /> counts, hero terminal &amp; repo list auto-refresh every 6h via GitHub Actions · last sync: <code>2026-09-11</code></sub></p>
 
 <br/>
 
